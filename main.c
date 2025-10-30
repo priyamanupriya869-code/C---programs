@@ -1,15 +1,18 @@
 #include <stdio.h>
 
-
 int main()
 {
-    int a, b, divide  ;
-    printf ("Enter two valuees to divided  : ");
-    scanf ("%d%d", &a,&b);
-    divide  = a / b;
-    printf ("the division  of the two values is : %d\n", divide );
-
+    int n;
+    printf("enter a integer : ");
+    scanf ("%d",&n");
+    if(n%2==0)
+    {
+        printf ("the number is even");
+    }
+    else
+    {
+        printf ("the number is odd");
+    }
 
     return 0;
 }
-
