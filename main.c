@@ -2,17 +2,12 @@
 
 int main()
 {
-    int n;
-    printf("enter a integer : ");
-    scanf ("%d",&n");
-    if(n%2==0)
-    {
-        printf ("the number is even");
-    }
-    else
-    {
-        printf ("the number is odd");
-    }
+  int i = 1;
+  while (i<=5)
+  {
+    printf ("%d\n",i);
+  ++1;
+  }
 
-    return 0;
 }
+return 0;
