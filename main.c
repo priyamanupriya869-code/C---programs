@@ -3,13 +3,12 @@
 
 int main()
 {
-    int a, b, divide  ;
-    printf ("Enter two valuees to divided  : ");
+    int a, b, sum ;
+    printf ("Enter two valuees to added : ");
     scanf ("%d%d", &a,&b);
-    divide  = a / b;
-    printf ("the division  of the two values is : %d\n", divide );
+    sum  = a + b;
+    printf ("the sum of the two values is : %d\n", sum);
 
 
     return 0;
 }
-
