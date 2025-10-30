@@ -1,20 +1,15 @@
 #include <stdio.h>
 
+
 int main()
 {
-int n;
+    int a, b, divide  ;
+    printf ("Enter two valuees to divided  : ");
+    scanf ("%d%d", &a,&b);
+    divide  = a / b;
+    printf ("the division  of the two values is : %d\n", divide );
 
-printf("Enter an integer : ");
-scanf("%d ",&n);
-if (n%2== 0)
-{
-    printf ("%d is an even integer : ",n);
 
-}
-else {
-    printf ("%d is an odd integer : ",n);
+    return 0;
 }
 
-
- return 0;
-}
